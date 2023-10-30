@@ -7,7 +7,7 @@ This project is a jokes generator that can generate jokes. It utilizes the OpenA
 Generates jokes 
 Uses a public API for joke generation
 Has a user-friendly frontend
-Is easy to set up and run
+
 
 ##Usage
 
