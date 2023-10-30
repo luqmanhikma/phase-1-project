@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Event listener for the button click event, which triggers fetching a joke
   btn.addEventListener("click",getJoke);
-
+  btn.addEventListener("click",getJoke);
   // Call the getJoke function once to display an initial joke when the page loads
   getJoke();
 });
