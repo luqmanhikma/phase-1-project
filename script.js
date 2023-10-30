@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
           jokeContainer.textContent = `${item.setup} ${item.punchline}`;
           // Add the "fade" class to create a fade-in effect for the joke
           jokeContainer.classList.add("fade");
+          jokeContainer.classList.add("fade");
       });
   }
 
