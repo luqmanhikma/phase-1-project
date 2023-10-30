@@ -1,6 +1,6 @@
 // This event listener waits for the DOM content to be fully loaded before executing the code inside.
 document.addEventListener("DOMContentLoaded", function() {
-  document.addEventListener("DOMContentLoaded", function() {
+  
   // Getting references to HTML elements using their IDs
   const jokeContainer = document.getElementById("joke"); // Reference to the element where the joke will be displayed
   const btn = document.getElementById("btn"); // Reference to the button that triggers fetching a joke
