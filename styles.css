@@ -1,0 +1,66 @@
+/* setting default padding, margin, and box-sizing for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Setting the background color of the body */
+body {
+  background-color: #3498db; 
+}
+
+/* Styling for the main container/wrapper */
+.wrapper {
+  width: 80vmin;
+  padding: 50px 40px;
+  background-color: #2c3e50; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  box-shadow: 20px 20px 40px rgba(44, 62, 80, 0.4); 
+}
+
+/* Styling for the emoji */
+span {
+  display: block;
+  text-align: center;
+  font-size: 100px;
+}
+
+/* Styling for the joke text */
+p {
+  font-size: 16px;
+  color: #ecf0f1; 
+  font-weight: 400;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 35px;
+  margin: 30px 0;
+  opacity: 0; /* Initially set to be invisible */
+}
+
+/* Adding fade-in animation for the joke text */
+.fade {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+/* Styling for the "Get Random Joke" button */
+button {
+  display: block;
+  background-color: #e74c3c; 
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  color: #2c3e50; 
+  font-weight: 600;
+  padding: 12px 25px;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
